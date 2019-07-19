@@ -1,0 +1,177 @@
+.navbar {
+	background-color: #6a0bbd; 
+}
+.container {
+	position: relative;
+}
+.navbar-brand {
+	font-family: 'Yellowtail', cursive;
+	color: white !important;
+	font-weight: bolder;
+	font-size: 27px !important;
+}
+.collapse {
+	color: white !important;
+}
+.bg-1 {
+	background-color: #6a0bbd;
+	height: 710px;
+	width: 100%;
+	background-size: cover;
+}
+.display-4 {
+	position: absolute;
+	font-family: 'Courgette', cursive;
+	font-weight: bolder;
+	color: #b50d6f;
+	font-style: italic;
+	text-shadow: 2px 2px rgba(120, 30, 82 1);
+	margin-left: 5%;
+	margin-top: 15%;
+	font-size: 23px;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+.btn-get {
+	position: absolute;
+	background-color: #260085;
+	border-radius: 100px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bolder;
+	border: solid 1px #260085;
+	margin-top: 113%;
+	margin-left: 15%;
+	transition: 0.5s;
+}
+.get-date {
+	position: absolute;
+	color: #b50d6f;
+	margin-top: 125%;
+	margin-left: 12%;
+	font-weight: lighter;
+	font-style: italic;
+	font-family: 'Courgette', cursive;
+	font-size: 15px;
+}
+.btn-get:hover {
+	margin-top: 110%;
+	box-shadow: 10px 10px rgba(0,0,0, 0.4);
+	background-color: #4200e8;
+	color: #b50d6f;
+}
+.sepatu-1 {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	margin-left: -3%;
+	margin-top: 15%;
+	animation: sepatu1 2s ease infinite alternate;
+	z-index: 10;
+}
+@keyframes sepatu1 {
+	0% {
+		margin-top: 15%;
+	}
+	100% {
+		margin-top: 10%;
+	}
+}
+.promotion-text {
+	position: absolute;
+	margin-top: 95%;
+	width: 90%;
+	text-align: right;
+	font-weight: bolder;
+	z-index: 2
+}
+.promotion-text h5 {
+	font-weight: bolder;
+	color: white;
+	font-size: 13px;
+	margin-right: 3%;
+}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.bg-1 {
+		background-color: #6a0bbd;
+		height: 680px;
+		width: 50%;
+		background-size: cover;
+	}
+	.display-4 {
+		position: absolute;
+		font-family: 'Courgette', cursive;
+		font-weight: bolder;
+		color: #b50d6f;
+		font-style: italic;
+		text-shadow: 2px 2px rgba(120, 30, 82 1);
+		margin-left: 13%;
+		margin-top: 8%;
+		font-size: 55px;
+	}
+	.btn-get {
+		position: absolute;
+		background-color: #260085;
+		border-radius: 100px;
+		color: white;
+		text-transform: uppercase;
+		font-weight: bolder;
+		border: solid 1px #260085;
+		margin-top: 35%;
+		margin-left: 25%;
+		transition: 0.5s;
+	}
+	.get-date {
+		position: absolute;
+		color: #b50d6f;
+		margin-top: 41%;
+		margin-left: 14%;
+		font-weight: lighter;
+		font-style: italic;
+		font-family: 'Courgette', cursive;
+		font-size: 25px;
+	}
+	.btn-get:hover {
+		margin-top: 33%;
+		box-shadow: 10px 10px rgba(0,0,0, 0.4);
+		background-color: #4200e8;
+		color: #b50d6f;
+	}
+	.sepatu-1 {
+		width: 80%;
+		height: auto;
+		position: absolute;
+		margin-left: 55%;
+		margin-top: -3%;
+		animation: sepatu1 2s ease infinite alternate;
+	}
+	@keyframes sepatu1 {
+		0% {
+			margin-top: -7%;
+		}
+		100% {
+			margin-top: -1%;
+		}
+	}
+	.promotion-text {
+		position: absolute;
+		margin-left: 80%;
+		margin-top: 60%;
+		width: 100%;
+		text-align: right;
+		font-weight: bolder;
+	}
+	.promotion-text h5 {
+		font-weight: bolder;
+		color: #b50d6f;
+		font-size: 18px;
+	}
+	.nav-link {
+		color: #b50d6f !important;
+		margin-right: unset;
+	}
+}
