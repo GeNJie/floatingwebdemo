@@ -15,7 +15,7 @@
 }
 .bg-1 {
 	background-color: #6a0bbd;
-	height: 710px;
+	height: 100vh;
 	width: 100%;
 	background-size: cover;
 }
@@ -28,12 +28,13 @@
 	text-shadow: 2px 2px rgba(120, 30, 82 1);
 	left: 50%;
 	transform: translate(-50%);
-	margin-top: 16%;
-	font-size: 23px;
+	margin-top: 12vh;
+	font-size: 32px;
 	display: flex;
 	justify-content: center;
 	align-items: center; 
 	width: 100%;
+	padding-left: 3%;
 }
 .btn-get {
 	position: absolute;
@@ -43,7 +44,7 @@
 	text-transform: uppercase;
 	font-weight: bolder;
 	border: solid 1px #260085;
-	margin-top: 113%;
+	margin-top: 75vh;
 	left: 50%;
 	transform: translate(-50%);
 	width: 70%;
@@ -52,7 +53,7 @@
 .get-date {
 	position: absolute;
 	color: #b50d6f;
-	margin-top: 125%;
+	margin-top: 82vh;
 	left: 50%;
 	transform: translate(-50%);
 	font-weight: lighter;
@@ -63,31 +64,33 @@
 	text-align: center;
 }
 .btn-get:hover {
-	margin-top: 110%;
+	margin-top: 73vh;
 	box-shadow: 10px 10px rgba(0,0,0, 0.4);
 	background-color: #4200e8;
 	color: #b50d6f;
 }
 .sepatu-1 {
-	width: 100%;
+	width: 50vh;
 	height: auto;
 	position: absolute;
-	margin-left: -3%;
-	margin-top: 15%;
+	left: 50%;
+	transform: translate( -50%);
 	animation: sepatu1 2s ease infinite alternate;
-	z-index: 10;
+	z-index: 1;
+	overflow: hidden;
+	display: flex;
 }
 @keyframes sepatu1 {
 	0% {
-		margin-top: 15%;
+		margin-top: 20vh;
 	}
 	100% {
-		margin-top: 10%;
+		margin-top: 15vh;
 	}
 }
 .promotion-text {
 	position: absolute;
-	margin-top: 95%;
+	margin-top: 61vh;
 	width: 90%;
 	text-align: right;
 	font-weight: bolder;
@@ -99,13 +102,27 @@
 	font-size: 13px;
 	margin-right: 3%;
 }
+.modal-content {
+	text-align: center !important;
+	background-color: #6a0bbd;
+	color: white;
+}
+.form-control {
+	border-radius: 100px;
+	color: white;
+}
+.btn-primary {
+	background-color: #260085;
+	border-radius: 100px;
+	color: white;
+}
 
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 	.bg-1 {
 		background-color: #6a0bbd;
-		height: 680px;
+		height: 100vh;
 		width: 50%;
 		background-size: cover;
 	}
